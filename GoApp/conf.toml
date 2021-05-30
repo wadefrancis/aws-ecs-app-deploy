@@ -1,0 +1,7 @@
+"DbUser" = "postgres"
+"DbPassword" = "ServianChallenge"
+"DbName" = "techchallengedb"
+"DbPort" = "5432"
+"DbHost" = "techchallengedb2.ciztnrtyllhr.ap-southeast-2.rds.amazonaws.com"
+"ListenHost" = "0.0.0.0"
+"ListenPort" = "3000"
