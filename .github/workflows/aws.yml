@@ -77,5 +77,6 @@ jobs:
           cd InfraStack
           npm install
           npm run build
+          cdk bootstrap
           cdk synth
           cdk deploy
