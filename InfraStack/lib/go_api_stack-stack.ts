@@ -87,7 +87,7 @@ export class GoApiStackStack extends cdk.Stack {
     taskDef.addToExecutionRolePolicy(executionRolePolicy);
 
     const container = taskDef.addContainer('go-spa', {
-      image: ecs.ContainerImage.fromRegistry("961083941605.dkr.ecr.ap-southeast-2.amazonaws.com/techchallengeapp"),
+      image: ecs.ContainerImage.fromRegistry("116565720465.dkr.ecr.ap-southeast-2.amazonaws.com/techchallengeapp"),
       memoryLimitMiB: 256,
       cpu: 256,
       logging,
